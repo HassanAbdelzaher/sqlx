@@ -189,6 +189,15 @@ func (m *Mapper) TraversalsByNameFunc(t reflect.Type, names []string, fn func(in
 	for i, name := range names {
 		fi, ok := tm.Names[name]
 		if !ok {
+			for _,v:=range tm.Names{
+				if strings.ToUpper(v.Name)==strings.ToUpper(name) {
+					ok=true
+					fi=v;
+					continue
+				}
+			}
+		}
+		if !ok {
 			if err := fn(i, nil); err != nil {
 				return err
 			}
