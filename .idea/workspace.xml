@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40880863-e22e-4850-90c8-cbdabffcbf0a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqlx.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bind.go" beforeDir="false" afterPath="$PROJECT_DIR$/bind.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reflectx/reflect.go" beforeDir="false" afterPath="$PROJECT_DIR$/reflectx/reflect.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/named.go" beforeDir="false" afterPath="$PROJECT_DIR$/named.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sqlx.go" beforeDir="false" afterPath="$PROJECT_DIR$/sqlx.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sqlx_context_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/sqlx_context_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sqlx_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/sqlx_test.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +55,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -71,11 +74,6 @@
           <url>file://$PROJECT_DIR$/reflectx/reflect.go</url>
           <line>293</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/reflectx/reflect.go</url>
-          <line>189</line>
-          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
